@@ -1,0 +1,248 @@
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+
+/*Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+In egestas dapibus nunc sed consequat. 
+Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget. 
+Fusce tortor ligula, pharetra nec augue id, blandit porta lacus. Donec imperdiet nisi ex, sed facilisis massa mattis non. 
+Vivamus eu orci eget magna hendrerit efficitur. Etiam eget turpis rutrum, commodo tortor non, ultricies orci. 
+Aliquam bibendum sapien tellus. Curabitur egestas massa tortor. Vivamus iaculis enim eu purus pretium interdum.*/
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,blue,white);
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+/*HEADER ALANI BURADA BİTTİ*/
+
+
+div#kapsayici{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+div#kapsayici section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid;
+    justify-content: space-between;
+    }
+
+
+ div#kapsayici section article{
+    flex-basis: 230px;
+    margin: 10px;
+    flex-grow: 1;
+    }
+
+
+    div#kapsayici section article img{
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px lightblue;
+    }
+
+
+    div#kapsayici section article h2{
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    div#kapsayici section article p{
+        text-align: justify;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+    /*HAKKIMIZDA KISMI BURADA BİTTİ*/
+
+
+
+div#kapsayici1{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+div#kapsayici1 section{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+border: 0px solid;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+
+
+div#kapsayici1 h2{
+text-align: center;
+}
+
+
+div#kapsayici1 section article{
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 320px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    flex-grow: 1;
+    margin-top:20px;
+    transition-duration: 0.8s;
+}
+
+
+div#kapsayici1 section article:hover{
+    transform: scale(1.1);
+    filter: contrast(120%);
+}
+
+div#kapsayici1 section .second{
+    background-color: black;
+    box-shadow: 5px 5px 5px black;
+}
+
+div#kapsayici1 section .third{
+    background-color: red;
+    box-shadow: 5px 5px 5px red;
+}
+
+div#kapsayici1 section .fourth{
+    background-color: purple;
+    box-shadow: 5px 5px 5px purple;
+}
+
+
+div#kapsayici1 section article img{
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px blue;
+}
+
+div#kapsayici1 section article p{
+    font-size: 18px;
+}
+    
+/*ÜRÜNLER KISMI BURADA BİTTİ*/
+
+
+div#kapsayici2{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+div#kapsayici2 section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div#kapsayici2 section article{
+    flex-basis: 230px;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+
+div#kapsayici2 section article img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+div#kapsayici2 section article h2{
+    text-align: center;
+    margin-top: 20%;
+}
+
+div#kapsayici2 section article p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*2. BÖLÜM BURADA BİTTİ*/
+
+footer{
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom,white,blue);
+    margin-top: 20px;
+}
+
+footer h3{
+    font-size: 24px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+@media screen and (max-width:550px){
+    header h1{
+        font-size: 24px;
+    }
+
+    footer h3{
+        font-size: 18px;
+    }
+}
+
+
+
